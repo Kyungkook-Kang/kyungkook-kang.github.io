@@ -19,7 +19,7 @@ website:
     background: light
     logo: images/logo.png
     logo-alt: "Kyungkook Kang personal logo"
-    title: 'Dr.K3'
+    title: 'Kyungkook Kang'
     right:
       - href: about.qmd
         text: About
