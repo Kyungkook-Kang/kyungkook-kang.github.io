@@ -1,0 +1,431 @@
+/* Fonts */
+@import url("https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css");
+
+@font-face {
+  font-family: "Petrona";
+  src: url("fonts/Petrona-Variable.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Red Hat Text";
+  src: url("fonts/RedHatText-Variable.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+}
+
+/* Colors */
+:root {
+  --paper: #fffbf2;
+  --ink: #002642;
+  --muted: #52616b;
+  --accent: #a23e02;
+  --accent-hover: #813100;
+  --line: #ddd8ca;
+}
+
+/* General */
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Petrona", Georgia, serif;
+  line-height: 1.7;
+}
+
+a {
+  color: var(--accent);
+  text-underline-offset: .19em;
+}
+
+a:hover {
+  color: var(--accent-hover);
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 5px;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Petrona", Georgia, serif;
+  color: var(--ink);
+}
+
+h1 {
+  font-weight: 650;
+  letter-spacing: -.035em;
+  line-height: 1.12;
+}
+
+h2 {
+  font-size: 1.65rem;
+  font-weight: 600;
+  margin-top: 2.5rem;
+  padding-bottom: .5rem;
+  border-bottom: 1px solid var(--line);
+}
+
+h3 {
+  font-size: 1.28rem;
+  font-weight: 600;
+  margin-top: 1.8rem;
+}
+
+h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+
+p {
+  margin-bottom: 1.2rem;
+}
+
+li {
+  margin-bottom: .45rem;
+}
+
+/* Navigation: name and menu use the same font */
+.navbar {
+  background: var(--paper) !important;
+  border-bottom: 1px solid var(--line);
+  padding-block: .85rem;
+}
+
+.navbar > .container-fluid {
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  font-family: "Petrona", Georgia, serif;
+  font-size: .92rem;
+  font-weight: 450;
+  letter-spacing: normal;
+  color: var(--ink);
+}
+
+.navbar-nav {
+  gap: .45rem;
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--accent) !important;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+  color: var(--accent);
+}
+
+.navbar-toggler {
+  border: 0;
+}
+
+/* Page titles and table of contents */
+.subtitle,
+.description,
+.text-muted {
+  color: var(--muted) !important;
+}
+
+#title-block-header {
+  margin-block: 1.8rem 2.6rem;
+}
+
+#title-block-header .title {
+  font-size: clamp(2.4rem, 5vw, 3.3rem);
+}
+
+#title-block-header .subtitle {
+  font-size: 1.03rem;
+  margin-top: .65rem;
+}
+
+#TOC {
+  font-size: .82rem;
+}
+
+#TOC .nav-link {
+  line-height: 1.5;
+  padding-block: .3rem;
+}
+
+#TOC .nav-link.active {
+  color: var(--accent) !important;
+  border-left-color: var(--accent) !important;
+}
+
+/* Footer and other elements */
+.nav-footer {
+  border-top: 1px solid var(--line);
+  margin-top: 4rem;
+  background: var(--paper);
+  color: var(--muted);
+  font-size: .8rem;
+}
+
+.nav-footer a {
+  color: var(--muted);
+}
+
+pre {
+  border: 1px solid var(--line);
+  border-radius: .3rem;
+}
+
+blockquote {
+  color: var(--muted);
+  border-left-color: var(--line);
+}
+
+.quarto-listing-default .quarto-post {
+  border-color: var(--line);
+  padding-block: 1.5rem;
+}
+
+.quarto-listing-category .category.active {
+  color: var(--accent);
+}
+
+/* Home layout */
+.home-page #quarto-content {
+  padding-inline: 1.75rem;
+}
+
+.home-page main {
+  width: 100%;
+  max-width: 1140px;
+  margin-inline: auto;
+}
+
+.home-page div.quarto-about-solana {
+  padding-block: 4.1rem 2rem !important;
+  margin-inline: auto;
+}
+
+.home-page .quarto-about-solana .about-entity {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  gap: clamp(2rem, 5vw, 4.5rem);
+  align-items: center;
+}
+
+.home-page .entity-contents {
+  text-align: right !important;
+  padding: 0;
+  min-width: 0;
+}
+
+.home-page #title-block-header {
+  margin: 0 0 1.4rem;
+}
+
+.home-page #title-block-header .title {
+  font-size: clamp(2.55rem, 4.3vw, 3.65rem);
+  font-weight: 650;
+  letter-spacing: -.045em;
+}
+
+.home-page #title-block-header .subtitle {
+  margin-top: .85rem;
+  line-height: 1.6;
+}
+
+.home-page .pronunciation {
+  display: block;
+  font-size: .72rem;
+  font-weight: 400;
+  letter-spacing: .025em;
+  margin-bottom: .65rem;
+}
+
+.home-page .appointment {
+  display: block;
+  font-family: "Petrona", Georgia, serif;
+  font-size: 1.04rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.home-page .about-contents {
+  padding: 0 !important;
+  font-size: .97rem;
+}
+
+.home-page .about-contents p {
+  margin-bottom: 1.15rem;
+}
+
+/* Contact links */
+.home-page .quarto-about-solana .about-entity .about-links {
+  order: 3;
+  justify-content: flex-end !important;
+  gap: .9rem;
+  padding: 0;
+  margin-top: 1.2rem;
+  flex-wrap: wrap;
+}
+
+.home-page .quarto-about-solana .about-link {
+  border: 0 !important;
+  border-radius: 0;
+  padding: .15rem 0 !important;
+  font-size: .86rem;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.home-page .quarto-about-solana .about-link:hover {
+  text-decoration: underline;
+}
+
+.home-page .quarto-about-solana .about-link i {
+  margin-right: .25em;
+}
+
+/* Photo: width and shape come from index.qmd */
+.home-page .quarto-about-solana .about-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+}
+
+.home-page .home-portrait {
+  margin: 0;
+  width: fit-content;
+  max-width: 100%;
+  min-width: 0;
+  justify-self: end;
+}
+
+.home-page .home-portrait figcaption {
+  font-size: .66rem;
+  line-height: 1.5;
+  color: var(--muted);
+  text-align: center;
+  margin-top: .7rem;
+}
+
+/* Explore and notes */
+.home-page .explore-links {
+  margin-block: 1.6rem 1rem;
+  font-size: .82rem;
+  letter-spacing: .02em;
+  line-height: 1.9;
+}
+
+.home-page .explore-links a {
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.home-page .explore-links a:hover {
+  text-decoration: underline;
+}
+
+.home-page .notes-intro {
+  font-size: .82rem;
+  color: var(--muted);
+}
+
+/* About photo caption */
+.about-photo figcaption {
+  color: var(--muted);
+  text-align: center;
+  font-size: .75rem;
+  line-height: 1.5;
+  margin-top: .5rem;
+}
+
+/* Tablets and smaller screens */
+@media (max-width: 991.98px) {
+  .home-page div.quarto-about-solana {
+    padding-top: 2.5rem !important;
+  }
+
+  .home-page .quarto-about-solana .about-entity {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2rem;
+    max-width: 620px;
+    margin-inline: auto;
+  }
+
+  .home-page .home-portrait {
+    order: -1;
+    justify-self: center;
+    max-width: min(100%, 340px);
+    margin-inline: auto;
+  }
+
+  .home-page .quarto-about-solana .about-image {
+    order: -1;
+    max-width: min(100%, 340px);
+    margin-inline: auto;
+  }
+
+  .home-page .entity-contents {
+    text-align: center !important;
+  }
+
+  .home-page .about-contents {
+    text-align: left;
+  }
+
+  .home-page .explore-links,
+  .home-page .notes-intro {
+    text-align: center;
+  }
+
+  .home-page .quarto-about-solana .about-entity .about-links {
+    justify-content: center !important;
+  }
+}
+
+/* Phones */
+@media (max-width: 575.98px) {
+  .home-page #quarto-content {
+    padding-inline: 1rem;
+  }
+
+  .home-page div.quarto-about-solana {
+    padding-top: 1.7rem !important;
+  }
+
+  .home-page .home-portrait,
+  .home-page .quarto-about-solana .about-image {
+    max-width: min(100%, 280px);
+  }
+
+  .home-page #title-block-header .title {
+    font-size: 2.55rem;
+  }
+
+  .home-page .appointment {
+    font-size: .96rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Print */
+@media print {
+  body {
+    background: white;
+    color: black;
+  }
+
+  .home-page div.quarto-about-solana {
+    padding-block: 1rem !important;
+  }
+}

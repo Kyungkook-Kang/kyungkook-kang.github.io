@@ -1,0 +1,63 @@
+# Site-wide settings. Fonts are bundled locally in fonts/.
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - .nojekyll
+    - fonts/
+  render:
+    - "*.qmd"
+    - "notes/*.qmd"
+
+website:
+  title: "Kyungkook Kang"
+  description: "Research and teaching in finance, economics, and political science."
+  # GitHub Pages 공개 후 아래 두 줄의 주석을 풀고 실제 주소로.
+  # site-url: https://kyungkook-kang.github.io
+  # repo-url: https://github.com/kyungkook-kang/kyungkook-kang.github.io
+  navbar:
+    background: light
+    logo: images/logo.png
+    logo-alt: "Kyungkook Kang personal logo"
+    title: 'KYUNGKOOK "K3" KANG'
+    right:
+      - href: about.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      - href: teaching.qmd
+        text: Teaching
+      - href: background.qmd
+        text: Background
+      - href: resources.qmd
+        text: Resources
+  page-footer:
+    left: "© 2026-27 Kyungkook Kang"
+    center: "ZSB Building, Room 241<br>
+    [4500 Riverwalk Pkwy, Riverside, CA 92505](https://www.google.com/maps/search/?api=1&query=4500+Riverwalk+Pkwy+Riverside+CA+92505)"   
+    right: "Built with [Quarto](https://quarto.org/)"
+  search: true
+
+format:
+  html:
+    theme:
+      - default
+      - theme.scss
+    css: styles.css
+    lang: en
+    toc: false
+    code-copy: true
+    anchor-sections: true
+    link-external-newwindow: true
+    mainfont: "Petrona"
+    fontsize: 18px
+    grid:
+      body-width: 760px
+      margin-width: 220px
+      sidebar-width: 180px
+      gutter-width: 2rem
+
+execute:
+  # 기본 템플릿은 R/Python 설치 없이 렌더링
+  # 실제 계산을 실행할 때 개별 코드 청크에 eval: true를 지정
+  eval: false

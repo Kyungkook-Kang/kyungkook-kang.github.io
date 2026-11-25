@@ -1,0 +1,38 @@
+---
+title: "Kyungkook Kang, PhD"
+subtitle: |
+  <span class="pronunciation text-muted">Pronounced “Kyung-cook Kahng”</span>
+  <span class="appointment">Associate Professor of Finance, Economics, and Business Analytics at La Sierra University</span>
+page-layout: full
+body-classes: home-page
+toc: false
+about:
+  template: solana
+  image: images/game_tree.png
+  image-width: 20em
+  image-alt: "A game tree showing decisions under uncertainty and imperfect information"
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:kkang@lasierra.edu
+    - text: '<i class="ai ai-orcid" aria-hidden="true"></i>ORCID'
+      href: https://orcid.org/0000-0001-8248-3971
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/kangkk/
+    - icon: github
+      text: GitHub
+      href: https://github.com/kyungkook-kang
+---
+
+
+I am a positive political economist based in Southern California. My work connects economic theory, political decision-making, and quantitative analysis.
+
+This site brings together my teaching and research. The [resources](resources.qmd) section offers guidance and materials for learning and applying computational tools and methods, with students in my business analytics courses in mind.
+
+
+::: {.explore-links}
+[About](about.qmd) · [Research](research.qmd) · [Teaching](teaching.qmd) · [Background](background.qmd) · [Resources](resources.qmd)
+:::
+
+

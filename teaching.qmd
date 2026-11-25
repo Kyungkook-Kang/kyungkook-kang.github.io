@@ -1,0 +1,103 @@
+---
+title: "Teaching"
+subtitle: "Financial Economics, Business Analytics, and International Affairs"
+toc: true
+
+---
+## Courses Taught
+
+### Finance and Economics
+
+#### La Sierra University (BS and MBA)
+
+- Managerial Finance
+- International Finance
+- Financial Markets and Institutions
+- Financial Analysis and Decision Making
+- Principles of Macroeconomics
+- Managerial Economics
+- Essentials of Game Theory
+- International Environment & Management
+
+#### Claremont Graduate University (MA and PhD)
+
+- Seminar in International Political Economy
+
+### International Relations
+
+#### University of Central Florida (BA)
+
+- Causes of War
+- Seminar on War
+
+#### Claremont Graduate University (MA and PhD)
+
+- Foreign and Defense Policy
+- American Foreign Policy
+- World Politics
+- Perspectives in Conflict and Peace
+- Seminar in Civil War
+
+### Business Analytics and Quantitative Methods
+
+#### La Sierra University (MBA)
+
+- Enterprise Applications of Business Intelligence
+- Resources for Decision Making
+- Decision Making and Uncertainty
+- Creativity and Problem Solving
+
+#### University of Central Florida (BA, MA, and PhD)
+
+- Scope and Methods of Political Science
+- Quantitative Methods in Political Research
+- Advanced Quantitative Methods in Political Research
+- Advanced Topics of Quantitative Political Analysis
+
+#### Claremont Graduate University (MA and PhD)
+
+- Strategic Modeling for Political, Economic & Business Decisions
+- Applied Data Analysis
+- Bayesian Methods
+- Multilevel Modeling
+- Seminar in Social Network Analysis
+- Advanced Formal Models
+
+#### University of Southern California (PhD)
+
+- Multivariate Analysis for International Studies
+
+## Independent Studies and Practicum Supervision
+
+La Sierra University (MBA): Practicum in Finance.
+
+University of Central Florida (PhD): Bayesian Statistics with Computational
+Methods; International Political Economy of Development; Advanced Quantitative
+Methods in Security Studies; International Security in Asia; Rational Choice
+in Security Studies; Political Economy; Civil War and Globalization; and
+The Rise of Hegemonic States and the People’s Republic of China.
+
+## Academic Advising
+
+[Service as a committee member.]{.small .text-muted}
+
+### Doctoral Dissertation Committees
+
+- Jeff Payne, University of Central Florida, 2019.
+- Clayton Besaw, University of Central Florida, 2018.
+- Gary Smith, University of Central Florida, 2018.
+
+### Master’s Thesis Committees
+
+- Gregory David McDowall, University of Central Florida, 2015.
+- Santiago Stocker, Claremont Graduate University, 2013.
+
+### Master’s Non-Thesis Paper Committee
+
+- Taylor Schaefer, University of Central Florida, 2017.
+
+### Undergraduate Honors Thesis Committee
+
+- Andres Rakower, University of Central Florida, 2018.
+
+

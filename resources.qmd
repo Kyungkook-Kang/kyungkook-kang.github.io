@@ -1,0 +1,14 @@
+---
+title: "Resources"
+subtitle: "Learning and working with Business Analytics, R, Python, and Quarto"
+listing:
+  contents: notes
+  type: default
+  sort: "title"
+  categories: true
+  fields: [title, description, categories]
+  sort-ui: false
+  filter-ui: false
+---
+
+Notes, examples, datasets, and code for learning and applying computational tools and methods.

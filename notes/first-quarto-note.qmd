@@ -1,0 +1,46 @@
+---
+title: "Writing a first Quarto note"
+description: "A small example with text, an equation, a table, and R code."
+categories: [Quarto, R]
+toc: true
+---
+
+## One document, several elements
+
+A Quarto note can combine an explanation, mathematical notation, and code.
+
+## An equation
+
+The sample mean is
+
+$$
+\bar{x}=\frac{1}{n}\sum_{i=1}^{n}x_i.
+$$
+
+For the observations below, $\bar{x}=(2+4+6)/3=4$.
+
+| Observation | Value |
+|---|---:|
+| 1 | 2 |
+| 2 | 4 |
+| 3 | 6 |
+
+## R code
+
+This example displays the code without executing it, so the template can be
+rendered before R and its packages are configured.
+
+```r
+x <- c(2, 4, 6)
+mean(x)
+```
+
+The expected result is `4`. To execute this chunk, install R and the `knitr`
+and `rmarkdown` packages, change the opening fence from ` ```r ` to
+` ```{r} ` (without the spaces), add `#| eval: true` as the first line inside
+the chunk, and render again. The output will then be calculated and included in the page.
+
+## A useful check
+
+Compare the computed result with the hand calculation. If they differ,
+check the observations, missing values, and the function arguments.
