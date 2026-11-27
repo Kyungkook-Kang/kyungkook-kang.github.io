@@ -28,7 +28,7 @@ about:
 
 I am a positive political economist based in Southern California. My work connects economic theory, political decision-making, and quantitative analysis.
 
-This site brings together my teaching and research. The [resources](resources.qmd) section offers guidance and materials for learning and applying computational tools and methods, with students in my business analytics courses in mind.
+This site brings together my research and teaching. The [resources](resources.qmd) section offers guidance and materials for learning and applying computational tools and methods, with students in my business analytics courses in mind.
 
 
 ::: {.explore-links}
