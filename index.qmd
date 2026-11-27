@@ -32,7 +32,7 @@ This site brings together my teaching and research. The [resources](resources.qm
 
 
 ::: {.explore-links}
-[About](about.qmd) · [Research](research.qmd) · [Teaching](teaching.qmd) · [Background](background.qmd) · [Resources](resources.qmd)
+[About](about.qmd) · [Research](research.qmd) · [Teaching](teaching.qmd) · [CV](files/CV_Kang_Public.pdf) · [Resources](resources.qmd)
 :::
 
 

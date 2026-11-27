@@ -5,6 +5,7 @@ project:
   resources:
     - .nojekyll
     - fonts/
+    - files/
   render:
     - "*.qmd"
     - "notes/*.qmd"
@@ -27,8 +28,8 @@ website:
         text: Research
       - href: teaching.qmd
         text: Teaching
-      - href: background.qmd
-        text: Background
+      - href: files/CV_Kang_Public.pdf
+        text: CV
       - href: resources.qmd
         text: Resources
   page-footer:
